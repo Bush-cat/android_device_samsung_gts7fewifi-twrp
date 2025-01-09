@@ -17,8 +17,8 @@ It was announced in May 2021 and released in June 2021.
 | Shipped OS                     | Android 11 (One UI 3.1) - Android 14 (One UI 6.1)                                         |
 | Storage                        | 64GB / 128GB / 256GB (UFS 2.1)                                                            |
 | MicroSD                        | Up to 1TB                                                                                 |
-| Battery                        | 10090mAh Li-Ion (non-removable), 25W fast charge                                          |
-| Dimensions                     | 159.9 x 75.1 x 8.4 mm (6.30 x 2.96 x 0.33 in)                                             |
+| Battery                        | 10090mAh Li-Ion (non-removable), 45W fast charge                                          |
+| Dimensions                     | 284.8 x 185 x 6.3 mm (11.21 x 7.28 x 0.25 in)                                             |
 | Display                        | 12,4", 1600 x 2560 pixels, 16:10 ratio, TFT LCD, 60Hz (~243 ppi density)                  |
 | Rear Camera 1 (IMX355)         | 8 MP, f/1.9, 27.6mm (wide), 1/3.5", 1.12µm                                                |
 | Front Camera (GC5035)          | 5 MP, f/2.2, 25.4mm (wide), 1/4.44", 1.12µm                                               |
@@ -27,7 +27,7 @@ It was announced in May 2021 and released in June 2021.
 
 ## Device picture
 
-<img src="https://image-us.samsung.com/SamsungUS/home/mobile/tablets/galaxy-tab-s7-fe/GalaxyTabS7plusLite_Combo_001_MysticBlack_1600x1200.png" width="45%"/>
+<img src="https://image-us.samsung.com/SamsungUS/home/mobile/tablets/galaxy-tab-s7-fe/GalaxyTabS7plusLite_Combo_001_MysticBlack_1600x1200.png" width="60%"/>
 
 ## Kernel source
 
