@@ -31,7 +31,7 @@ It was announced in May 2021 and released in June 2021.
 
 ## Kernel source
 
-Extracted from T733XXS8DXJ1 Stock Firmware
+Extracted from T733XXS8DXJ1 Stock Firmware.
 
 ## How to build
 
