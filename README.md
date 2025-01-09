@@ -1,10 +1,10 @@
-# TWRP Device Tree for Samsung Galaxy A52s 5G
+# TWRP Device Tree for Samsung Galaxy Tab S7 FE (SM-T733)
 
-The Galaxy A52s 5G (codenamed _"a52sxq"_) is an upper-mid-range smartphone from Samsung.
+> ⚠️ **Attention:** This is for the WiFi Variant only! LTE/5G Variants use a differrent Chipset!
 
-It was announced in August 2021 and released in September 2021.
+The Galaxy Tab S7 FE (codenamed _"gts7fewifi"_) is an upper-mid-range tablet from Samsung.
 
-There are also two different variants for Taiwan (a52sxqzt) and Korea (a52sxqks).
+It was announced in May 2021 and released in June 2021.
 
 ## Device specifications
 
@@ -13,30 +13,25 @@ There are also two different variants for Taiwan (a52sxqzt) and Korea (a52sxqks)
 | Chipset                        | Qualcomm SM7325 Snapdragon 778G 5G                                                        |
 | CPU                            | Octa-core (1x2.4 GHz Kryo 670 Prime, 3x2.2 GHz Kryo 670 Gold & 4x1.9 GHz Kryo 670 Silver) |
 | GPU                            | Qualcomm Adreno 642L                                                                      |
-| Memory                         | 6GB / 8GB RAM (LPDDR4X)                                                                   |
-| Shipped OS                     | Android 11 (One UI 3.1)                                                                   |
-| Storage                        | 128GB / 256GB (UFS 2.1)                                                                   |
-| SIM                            | Hybrid Dual SIM (Nano-SIM, dual stand-by)                                                 |
+| Memory                         | 4GB / 6GB / 8GB RAM (LPDDR4X)                                                             |
+| Shipped OS                     | Android 11 (One UI 3.1) - Android 14 (One UI 6.1)                                         |
+| Storage                        | 64GB / 128GB / 256GB (UFS 2.1)                                                            |
 | MicroSD                        | Up to 1TB                                                                                 |
-| Battery                        | 4500mAh Li-Ion (non-removable), 25W fast charge                                           |
+| Battery                        | 10090mAh Li-Ion (non-removable), 25W fast charge                                          |
 | Dimensions                     | 159.9 x 75.1 x 8.4 mm (6.30 x 2.96 x 0.33 in)                                             |
-| Display                        | 6.5", 1080 x 2400 pixels, 20:9 ratio, Super AMOLED, 120Hz (~405 ppi density)              |
-| Rear Camera 1 (IMX682/S5KGW1P) | 64 MP, f/1.8, 26mm (wide), 1/1.7", 0.8µm, PDAF, OIS                                       |
-| Rear Camera 2 (S5K3L6)         | 12 MP, f/2.2, 123˚ (ultrawide), 1.12µm                                                    |
-| Rear Camera 3 (S5KGW2)         | 5 MP, f/2.4, (macro)                                                                      |
-| Rear Camera 4 (S5K3J1)         | 5 MP, f/2.4, (depth)                                                                      |
-| Front Camera (IMX616/S5KGD2)   | 32 MP, f/2.2, 26mm (wide), 1/2.8", 0.8µm                                                  |
-| Fingerprint                    | EgisTec ET713 (under display, optical)                                                    |
+| Display                        | 12,4", 1600 x 2560 pixels, 16:10 ratio, TFT LCD, 60Hz (~243 ppi density)                  |
+| Rear Camera 1 (IMX355)         | 8 MP, f/1.9, 27.6mm (wide), 1/3.5", 1.12µm                                                |
+| Front Camera (GC5035)          | 5 MP, f/2.2, 25.4mm (wide), 1/4.44", 1.12µm                                               |
 | Sensors                        | Accelerometer, Gyro, Proximity (virtual), Compass, Hall IC, Grip                          |
-| Extras                         | Dual speakers, NFC, MST                                                                   |
+| Extras                         | Dual speakers                                                                             |
 
 ## Device picture
 
-<img src="https://user-images.githubusercontent.com/13062958/187953480-5eb44d30-247d-4932-9d59-e2d37563ca19.png" width="45%"/>
+<img src="https://image-us.samsung.com/SamsungUS/home/mobile/tablets/galaxy-tab-s7-fe/GalaxyTabS7plusLite_Combo_001_MysticBlack_1600x1200.png" width="45%"/>
 
-## Kernel source 
+## Kernel source
 
-Available at [https://github.com/BlackMesa123/android_kernel_samsung_sm7325/tree/sep-15/twrp-12.1](https://github.com/BlackMesa123/android_kernel_samsung_sm7325/tree/sep-15/twrp-12.1)
+Exctracted from T733XXS8DXJ1 Stock Firmware
 
 ## How to build
 
@@ -47,7 +42,7 @@ This device tree was tested and is fully compatible with [minimal-manifest-twrp]
 2. In the root folder of the fetched repo, clone the device tree:
 
 ```bash
-git clone https://github.com/TeamWin/android_device_samsung_a52sxq.git -b android-12.1 device/samsung/a52sxq
+git clone https://github.com/Bush-cat/android_device_samsung_gts7fewifi-twrp.git -b android-12.1 device/samsung/gts7fewifi
 ```
 
 3. To build:
@@ -55,7 +50,7 @@ git clone https://github.com/TeamWin/android_device_samsung_a52sxq.git -b androi
 ```bash
 export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
-lunch twrp_a52sxq-eng
+lunch twrp_gts7fewifi-eng
 mka recoveryimage
 ```
 

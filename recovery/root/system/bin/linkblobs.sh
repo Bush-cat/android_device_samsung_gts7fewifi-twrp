@@ -14,14 +14,14 @@
 #
 
 BOOTLOADER=`getprop ro.boot.bootloader`
-OS_VERSION=`echo ${BOOTLOADER:9:1} | tr ABCDEFGHI 123456789`
+OS_VERSION=`echo ${BOOTLOADER:8:1} | tr ABCDEFGHI 123456789`
 
-if [ "$OS_VERSION" -ge 6 ]; then
+if [ "$OS_VERSION" -ge 4 ]; then
   echo "I:linkblobs: Bootloader version: $BOOTLOADER, using Android 14 blobs" >> /tmp/recovery.log;
   ln -s /vendor/lib64/hw/sgk-14 /vendor/lib64/hw/gatekeeper.mdfpp.so
   ln -s /vendor/lib64/skm-14 /vendor/lib64/libskeymaster4device.so
   ln -s /vendor/lib64/skm_h-14 /vendor/lib64/libkeymaster_helper.so
-elif [ "$OS_VERSION" -ge 4 ]; then
+elif [ "$OS_VERSION" -ge 3 ]; then
   echo "I:linkblobs: Bootloader version: $BOOTLOADER, using Android 13 blobs" >> /tmp/recovery.log;
   ln -s /vendor/lib64/hw/sgk-13 /vendor/lib64/hw/gatekeeper.mdfpp.so
   ln -s /vendor/lib64/skm-13 /vendor/lib64/libskeymaster4device.so

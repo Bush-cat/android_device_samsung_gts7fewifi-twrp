@@ -1,2 +1,1 @@
 # Soft dependencies extracted from modules themselves.
-softdep stm_ts pre: acpm-mfd-bus

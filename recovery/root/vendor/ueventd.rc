@@ -44,7 +44,7 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/ /
 /dev/membuf               0664   system     system
 /dev/rtc0                 0660   system     system
 /dev/smd0                 0660   system     system
-/dev/smd4                 0660   system     system
+/dev/smd4                 0660   system     system_ext_bridge_rw
 /dev/smd_cxm_qmi          0640   radio      radio
 /dev/smd5                 0660   system     system
 /dev/smd6                 0660   system     system
@@ -73,6 +73,9 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/ /
 /dev/android_ssusbcon    0660     system        system
 /sys/class/android_usb/android0  f_rndis/ethaddr      0660  system   system
 /sys/class/android_usb/android0  terminal_version     0660  system   system
+
+#permissions secure_lock
+/sys/class/usb_notify/usb_control   usb_sl      0664     system        usb
 
 #permissions for CSVT
 /dev/smd11                0660   radio      radio
@@ -205,7 +208,8 @@ firmware_directories /vendor/firmware_mnt/image/ /vendor/firmware-modem/image/ /
 /dev/msm_vidc_dec_sec     0660   system     audio
 /dev/msm_vidc_enc         0660   system     audio
 /dev/msm_rotator          0660   system     system
-/dev/hw_random            0600   root       root
+# Aside from kernel threads, only prng_seeder needs access to HW RNG
+/dev/hw_random            0400   prng_seeder prng_seeder
 /dev/sdsprpc-smd          0660   system     system
 
 #permissions for audio
