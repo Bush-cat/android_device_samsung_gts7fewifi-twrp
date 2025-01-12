@@ -8,22 +8,22 @@ It was announced in May 2021 and released in June 2021.
 
 ## Device specifications
 
-| Feature                        | Specification                                                                             |
-| -----------------------------: | :---------------------------------------------------------------------------------------- |
-| Chipset                        | Qualcomm SM7325 Snapdragon 778G 5G                                                        |
-| CPU                            | Octa-core (1x2.4 GHz Kryo 670 Prime, 3x2.2 GHz Kryo 670 Gold & 4x1.9 GHz Kryo 670 Silver) |
-| GPU                            | Qualcomm Adreno 642L                                                                      |
-| Memory                         | 4GB / 6GB / 8GB RAM (LPDDR4X)                                                             |
-| Shipped OS                     | Android 11 (One UI 3.1) - Android 14 (One UI 6.1)                                         |
-| Storage                        | 64GB / 128GB / 256GB (UFS 2.1)                                                            |
-| MicroSD                        | Up to 1TB                                                                                 |
-| Battery                        | 10090mAh Li-Ion (non-removable), 45W fast charge                                          |
-| Dimensions                     | 284.8 x 185 x 6.3 mm (11.21 x 7.28 x 0.25 in)                                             |
-| Display                        | 12,4", 1600 x 2560 pixels, 16:10 ratio, TFT LCD, 60Hz (~243 ppi density)                  |
-| Rear Camera 1 (IMX355)         | 8 MP, f/1.9, 27.6mm (wide), 1/3.5", 1.12µm                                                |
-| Front Camera (GC5035)          | 5 MP, f/2.2, 25.4mm (wide), 1/4.44", 1.12µm                                               |
-| Sensors                        | Accelerometer, Gyro, Proximity (virtual), Compass, Hall IC, Grip                          |
-| Extras                         | Dual speakers                                                                             |
+| Feature                | Specification                                                                             |
+| -----------------------| :---------------------------------------------------------------------------------------- |
+| Chipset                | Qualcomm SM7325 Snapdragon 778G 5G                                                        |
+| CPU                    | Octa-core (1x2.4 GHz Kryo 670 Prime, 3x2.2 GHz Kryo 670 Gold & 4x1.9 GHz Kryo 670 Silver) |
+| GPU                    | Qualcomm Adreno 642L                                                                      |
+| Memory                 | 4GB / 6GB / 8GB RAM (LPDDR4X)                                                             |
+| Shipped OS             | Android 11 (One UI 3.1) - Android 14 (One UI 6.1)                                         |
+| Storage                | 64GB / 128GB / 256GB (UFS 2.2)                                                            |
+| MicroSD                | Up to 1TB                                                                                 |
+| Battery                | 10090mAh Li-Ion (non-removable), 45W fast charge                                          |
+| Dimensions             | 284.8 x 185 x 6.3 mm (11.21 x 7.28 x 0.25 in)                                             |
+| Display                | 12,4", 1600 x 2560 pixels, 16:10 ratio, TFT LCD, 60Hz (~243 ppi density)                  |
+| Rear Camera 1 (IMX355) | 8 MP, f/1.9, 27.6mm (wide), 1/3.5", 1.12µm                                                |
+| Front Camera (GC5035)  | 5 MP, f/2.2, 25.4mm (wide), 1/4.44", 1.12µm                                               |
+| Sensors                | Accelerometer, Gyro, Proximity (virtual), Compass, Hall IC, Grip                          |
+| Extras                 | Dual speakers, MST                                                                        |
 
 ## Device picture
 

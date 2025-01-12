@@ -126,6 +126,7 @@ RECOVERY_SDCARD_ON_DATA := true
 TARGET_USES_MKE2FS := true
 
 # TWRP specific build flags
+TW_DEVICE_VERSION := 1
 TW_THEME := landscape_hdpi
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
