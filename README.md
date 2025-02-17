@@ -1,6 +1,6 @@
 # TWRP Device Tree for Samsung Galaxy Tab S7 FE (SM-T733)
 
-> ⚠️ **Attention:** This is for the WiFi Variant only! LTE/5G Variants use a differrent Chipset!
+> ⚠️ **Attention:** Make sure to check your Model! **ONLY** use on T733! Other Models like T730, T736B, T738U, ... will **NOT** work!
 
 The Galaxy Tab S7 FE (codenamed _"gts7fewifi"_) is an upper-mid-range tablet from Samsung.
 
@@ -31,7 +31,7 @@ It was announced in May 2021 and released in June 2021.
 
 ## Kernel source
 
-Extracted from T733XXS8DXJ1 Stock Firmware.
+Available at [https://github.com/Bush-cat/android_kernel_samsung_sm7325/tree/twrp-12.1](https://github.com/Bush-cat/android_kernel_samsung_sm7325/tree/twrp-12.15)
 
 ## How to build
 
